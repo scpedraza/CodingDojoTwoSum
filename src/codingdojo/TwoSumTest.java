@@ -12,7 +12,7 @@ class TwoSumTest {
 
     @Test
     void twoSum1() {
-        int[] result = toTest.twoSum(new int[]{2, 7, 11, 15}, 9);
+        final int[] result = toTest.twoSum(new int[]{2, 7, 11, 15}, 9);
         assertTrue(Arrays.equals(result, new int[]{0, 1}) || Arrays.equals(result, new int[]{1, 0}));
     }
 
